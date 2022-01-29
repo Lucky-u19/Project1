@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title">Generate Password</div>
+            <div class="form-generate">
+                <div class="generate-screen">
+                    <div class="generate-screen__passphrase" id="passphrase">
+                        <p class="generate-screen__passphrase-title">passphrase:</p> 
+                        <p class="generate-screen__passphrase-text" id="passphrase-text"></p>
+                    </div>
+                    <div class="generate-screen__password" id="password">
+                        <p class="generate-screen__password-title">password:</p> 
+                        <p class="generate-screen__password-text" id="password-text"></p>
+                    </div>
+                </div>
+                <div class="switchs">
+                    <div class="switch-wrapper">
+                        <div class="switch__uppercase">
+                            <input type="checkbox" id="uppercase" checked/>
+                            <label for="uppercase">uppercase</label>
+                        </div>
+                    </div>
+                    <div class="switch-wrapper">
+                        <div class="switch__lowercase">
+                            <input type="checkbox" id="lowercase" checked/>
+                            <label for="lowercase">lowercase</label>
+                        </div>
+                    </div>
+                    <div class="switch-wrapper">
+                        <div class="switch__number">
+                            <input type="checkbox" id="number" checked/>
+                            <label for="number">number</label>
+                        </div>
+                    </div>
+                    <div class="switch-wrapper">
+                        <div class="switch__space">
+                            <input type="checkbox" id="space" checked/>
+                            <label for="space">space</label>
+                        </div>
+                    </div>
+                    <div class="switch-wrapper">
+                        <div class="switch__symbol">
+                            <input type="checkbox" id="symbol" checked/>
+                            <label for="symbol">symbol</label>
+                        </div>
+                    </div>
+                    <div class="switch-wrapper">
+                        <div class="switch__eng">
+                            <input type="checkbox" id="eng" checked/>
+                            <label for="eng">eng</label>
+                        </div>
+                    </div> 
+                </div>
+                <div class="btn-wrapper">
+                    <button type="button" class="btn" id="restart">RESTART</button>
+                    <button type="button" class="btn" id="generate">GENERATE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/main.js"></script> 
+</html>
