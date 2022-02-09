@@ -1,5 +1,4 @@
 
-// const phrase = document.getElementById("passphrase");
 const phraseText = document.getElementById("passphrase-text");
 const passwordText = document.getElementById("password-text");
  
